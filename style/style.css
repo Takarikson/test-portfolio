@@ -1,15 +1,51 @@
 /* GLOBAL */
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:ital,wght@0,400;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;700&display=swap&family=Oswald:wght@400;700&family=Roboto:ital,wght@0,400;1,700&display=swap&family=Saira+Condensed:wght@100;500;700&family=Saira:wght@100;400&display=swap");
 @import "_animation.scss";
-/* https://flatuicolors.com/palette/au */
+/* https://flatuicolors.com/palette/es */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Saira Condensed", sans-serif;
 }
 .clearfix::after {
     content: "";
     display: block;
     clear: both;
+}
+/* HEADER */
+header.welcome{
+    padding-left: 80px;
+}
+header{
+    position: relative;
+    height: 90vh;
+    background-color: #227093;
+}
+header p{
+    font-size: 120px;
+    color: #ffda79;
+}
+header h1{
+    font-weight: bold;
+    font-size: 60px;
+    color: #ffda79;
+}
+header h2{
+    font-weight: normal;
+    font-size: 60px;
+    color: #ffda79;
+}
+header button{
+    height: 90px;
+    padding: 0 30px;
+    background: transparent;
+    font-weight: light;
+    font-size: 36px;
+    color: #ffda79;
+    border: 1px solid #ffda79;
+}
+header img{
+    position: absolute;
+    background: transparent;
 }
