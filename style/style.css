@@ -17,12 +17,10 @@ header{
 header > *{
     position: absolute;
 }
-header .welcome{
+header div.welcome{
     top: 10%;
     left: 5%;
     right: 5%;
-}
-header div{
     color: #f5f6fa;
     font-weight: bold;
     text-align: center;
@@ -53,6 +51,20 @@ header img{
     height: 50%;
     bottom: 0;
     right: 0;
+}
+@media(orientation: landscape){
+    header img{
+        height: 80%;
+        bottom: 0;
+        right: -10%;
+    }
+    header div.welcome{
+        top:10%;
+        left: 10%;
+        right: 0;
+        text-align: left;
+    
+    }
 }
 section{
     min-height: 100vh;
